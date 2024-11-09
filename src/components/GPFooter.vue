@@ -1,7 +1,14 @@
 <template>
-    <v-container>
-        <p></p>
-    </v-container>
+    <v-footer>
+        <v-container>
+            <v-row class="justify-centr">
+                <v-col>
+                    <p>Original Randomizer is created by Lenrok</p>
+                    <p>Web Application is create by @sopra</p>
+                </v-col>
+            </v-row>
+        </v-container>
+    </v-footer>
 </template>
 
 <script>

@@ -1,12 +1,14 @@
 <script setup>
 import GPHeaderVue from './components/GPHeader.vue'
 import GPRandomizerBoardVue from './components/GPRandomizerBoard.vue'
+import GPFooter from './components/GPFooter.vue';
 </script>
 
 <template>
   <v-app>
     <GPHeaderVue />
     <GPRandomizerBoardVue />
+    <GPFooter />
   </v-app>
 </template>
 

@@ -23,6 +23,13 @@
             <GPRoundBoardVue />
             <GPRoundBoosterVue />
             <GPLostFleetVue />
+            <v-container>
+                <v-row class="justify-center">
+                    <v-col xs="12" sm="12" md="6" lg="4">
+                        <v-btn block @click="generateMap">GenerateMap</v-btn>
+                    </v-col>
+                </v-row>
+            </v-container>
             <GPMapVue />
         </v-main>
 </template>
@@ -33,6 +40,7 @@ import GPRoundBoardVue from './GPRoundBoard.vue';
 import GPRoundBoosterVue from './GPRoundBooster.vue';
 import GPTechnologyBoardVue from './GPTechnologyBoard.vue';
 import GPLostFleetVue from "./GPLostFleet.vue";
+import GPFooter from "./GPFooter.vue";
 
 export default {
     components: {
@@ -40,7 +48,8 @@ export default {
         GPRoundBoardVue,
         GPRoundBoosterVue,
         GPLostFleetVue,
-        GPMapVue
+        GPMapVue,
+        GPFooter
     },
     data: () => ({
         playerNumber: [
@@ -51,9 +60,11 @@ export default {
         expansionFlag: "",
     }),
     methods: {
-        setupOriginal () {
+        setupOriginal() {
         },
-        setupLostFleet () {
+        setupLostFleet() {
+        },
+        generateMap() {
         }
     }
 }
