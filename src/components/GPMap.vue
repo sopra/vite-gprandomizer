@@ -1,8 +1,8 @@
 <template>
-    <v-app>
+    <v-container>
         <div id="map">
         </div>
-    </v-app>
+    </v-container>
 </template>
 
 <script>

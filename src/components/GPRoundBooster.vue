@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <v-row>
+        <v-row class="roundboosterArea">
             <v-col v-for="roundBoosterTile in roundBoosterTiles" v-bind:key="roundBoosterTile.id">
                 {{ roundBoosterTile.description }}
             </v-col>
@@ -53,4 +53,7 @@ export default {
 </script>
 
 <style scoped>
+.roundboosterArea {
+    background-color: #8b939d;
+}
 </style>

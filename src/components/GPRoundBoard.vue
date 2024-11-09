@@ -1,10 +1,12 @@
 <template>
     <v-container>
         <v-row>
-            <v-col v-for="(roundTile, index) in roundScoreTiles" :key="index">
+            <v-col cols="2" v-for="(roundTile, index) in roundScoreTiles" :key="index" class="roundtile">
                 {{ roundTile }}
             </v-col>
-            <v-col>
+        </v-row>
+        <v-row>
+            <v-col class="finalscore">
                 <div v-for="(finalScoreTile, index) in finalScoreTiles" :key="index">
                     {{  finalScoreTile }}
                 </div>
@@ -35,4 +37,12 @@ export default {
 </script>
 
 <style scoped>
+.roundtile {
+    background-color: black;
+    color: white;
+}
+
+.finalscore {
+    background-color: #04833a;
+}
 </style>

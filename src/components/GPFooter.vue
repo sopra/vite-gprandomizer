@@ -2,7 +2,7 @@
     <v-footer>
         <v-container>
             <v-row class="justify-centr">
-                <v-col>
+                <v-col cols="12">
                     <p>Original Randomizer is created by Lenrok</p>
                     <p>Web Application is create by @sopra</p>
                 </v-col>
@@ -16,5 +16,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+footer {
+    text-align: center;
+}
 </style>
