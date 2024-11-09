@@ -14,5 +14,4 @@
     grid-template-rows: repeat(20, 1fr);
     grid-template-columns: repeat(20, 1fr);
 }
-
 </style>

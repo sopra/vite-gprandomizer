@@ -1,11 +1,11 @@
 <template>
     <v-container>
         <v-row>
-            <v-col v-for="roundTile in roundScoreTiles">
+            <v-col v-for="(roundTile, index) in roundScoreTiles" :key="index">
                 {{ roundTile }}
             </v-col>
             <v-col>
-                <div v-for="finalScoreTile in finalScoreTiles">
+                <div v-for="(finalScoreTile, index) in finalScoreTiles" :key="index">
                     {{  finalScoreTile }}
                 </div>
             </v-col>
