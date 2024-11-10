@@ -12,10 +12,10 @@
             </v-row>
             <v-row class="justify-center">
                 <v-col lg="3" md="4" sm="6" xs="6">
-                    <v-btn block elevation="4" @click="setupOriginal">Original Setup</v-btn>
+                    <v-btn block @click="setupOriginal">Original Setup</v-btn>
                 </v-col>
                 <v-col lg="3" md="4" sm="6" xs="6">
-                    <v-btn block elevation="4" @click="setupLostFleet">Lost Fleet Setup</v-btn>
+                    <v-btn block @click="setupLostFleet">Lost Fleet Setup</v-btn>
                 </v-col>
             </v-row>
         </v-container>
@@ -42,6 +42,8 @@ import GPTechnologyBoardVue from './GPTechnologyBoard.vue';
 import GPLostFleetVue from "./GPLostFleet.vue";
 import GPFooter from "./GPFooter.vue";
 
+import Federations from "@/assets/data/federations.json";
+
 export default {
     components: {
         GPTechnologyBoardVue,
@@ -58,6 +60,7 @@ export default {
             '4'],
         selected: '4',
         expansionFlag: "",
+        federations: Federations
     }),
     methods: {
         setupOriginal() {
@@ -66,11 +69,11 @@ export default {
         },
         generateMap() {
         }
+    },
+    beforeMount: () => {
     }
 }
 </script>
 
 <style scoped>
-
-
 </style>

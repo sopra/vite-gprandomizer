@@ -1,0 +1,109 @@
+{
+    "version": "1.0",
+    "items": [
+        {
+            "id": 1,
+            "description": "",
+            "useWithPlayers": [
+                2, 3, 4
+            ],
+            "imagePath": "/public/img/1.webp"
+        },
+        {
+            "id": 2,
+            "description": "",
+            "useWithPlayers": [
+                2, 3, 4
+            ],
+            "imagePath": "/public/img/2.webp"
+        },
+        {
+            "id": 3,
+            "description": "",
+            "useWithPlayers": [
+                2, 3, 4
+            ],
+            "imagePath": "/public/img/3.webp"
+        },
+        {
+            "id": 4,
+            "description": "",
+            "useWithPlayers": [
+                2, 3, 4
+            ],
+            "imagePath": "/public/img/4.webp"
+        },
+        {
+            "id": 5,
+            "description": "",
+            "useWithPlayers": [
+                4
+            ],
+            "imagePath": "/public/img/5.webp"
+        },
+        {
+            "id": 6,
+            "description": "",
+            "useWithPlayers": [
+                2, 3
+            ],
+            "imagePath": "/public/img/5_.webp"
+        },
+        {
+            "id": 7,
+            "description": "",
+            "useWithPlayers": [
+                4
+            ],
+            "imagePath": "/public/img/6.webp"
+        },
+        {
+            "id": 8,
+            "description": "",
+            "useWithPlayers": [
+                2, 3
+            ],
+            "imagePath": "/public/img/6_.webp"
+        },
+        {
+            "id": 9,
+            "description": "",
+            "useWithPlayers": [
+                4
+            ],
+            "imagePath": "/public/img/7.webp"
+        },
+        {
+            "id": 10,
+            "description": "",
+            "useWithPlayers": [
+                2, 3
+            ],
+            "imagePath": "/public/img/7_.webp"
+        },
+        {
+            "id": 11,
+            "description": "",
+            "useWithPlayers": [
+                4
+            ],
+            "imagePath": "/public/img/8.webp"
+        },
+        {
+            "id": 12,
+            "description": "",
+            "useWithPlayers": [
+                3, 4
+            ],
+            "imagePath": "/public/img/9.webp"
+        },
+        {
+            "id": 13,
+            "description": "",
+            "useWithPlayers": [
+                3, 4
+            ],
+            "imagePath": "/public/img/10.webp"
+        }
+    ]
+}
