@@ -5,91 +5,91 @@
             "id": 1,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVfedP.webp"
+            "imagePath": "/img/ADVfedP.webp"
         },
         {
             "id": 2,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVfedV.webp"
+            "imagePath": "/img/ADVfedV.webp"
         },
         {
             "id": 3,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVgai.webp"
+            "imagePath": "/img/ADVgai.webp"
         },
         {
             "id": 4,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVknw.webp"
+            "imagePath": "/img/ADVknw.webp"
         },
         {
             "id": 5,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVlab.webp"
+            "imagePath": "/img/ADVlab.webp"
         },
         {
             "id": 6,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVminB.webp"
+            "imagePath": "/img/ADVminB.webp"
         },
         {
             "id": 7,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVminV.webp"
+            "imagePath": "/img/ADVminV.webp"
         },
         {
             "id": 8,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVore.webp"
+            "imagePath": "/img/ADVore.webp"
         },
         {
             "id": 9,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVqic.webp"
+            "imagePath": "/img/ADVqic.webp"
         },
         {
             "id": 10,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVsecO.webp"
+            "imagePath": "/img/ADVsecO.webp"
         },
         {
             "id": 11,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVsecV.webp"
+            "imagePath": "/img/ADVsecV.webp"
         },
         {
             "id": 12,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVstp.webp"
+            "imagePath": "/img/ADVstp.webp"
         },
         {
             "id": 13,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVtrsB.webp"
+            "imagePath": "/img/ADVtrsB.webp"
         },
         {
             "id": 14,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVtrsV.webp"
+            "imagePath": "/img/ADVtrsV.webp"
         },
         {
             "id": 15,
             "type": "origin",
             "description": "",
-            "imagePath": "public/img/ADVtyp.webp"
+            "imagePath": "/img/ADVtyp.webp"
         }
     ]
 }

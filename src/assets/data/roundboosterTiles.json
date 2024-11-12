@@ -1,0 +1,65 @@
+{
+    "version": "1.0",
+    "items": [
+        {
+            "id": 1,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOgai.webp"
+        },
+        {
+            "id": 2,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOlab.webp"
+        },
+        {
+            "id": 3,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOnav.webp"
+        },
+        {
+            "id": 4,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOpwt.webp"
+        },
+        {
+            "id": 5,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOter.webp"
+        },
+        {
+            "id": 6,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOknw.webp"
+        },
+        {
+            "id": 7,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOmin.webp"
+        },
+        {
+            "id": 8,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOpia.webp"
+        },
+        {
+            "id": 9,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOqic.webp"
+        },
+        {
+            "id": 10,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/BOOtrs.webp"
+        }
+    ]
+}

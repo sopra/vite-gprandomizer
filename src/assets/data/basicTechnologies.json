@@ -1,0 +1,77 @@
+{
+    "version": "1.0",
+    "items": [
+        {
+            "id": 1,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECcre.webp"
+        },
+        {
+            "id": 2,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECgai.webp"
+        },
+        {
+            "id": 3,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECknw.webp"
+        },
+        {
+            "id": 4,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECore.webp"
+        },
+        {
+            "id": 5,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECpia.webp"
+        },
+        {
+            "id": 6,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECpow.webp"
+        },
+        {
+            "id": 7,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECqic.webp"
+        },
+        {
+            "id": 8,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECtyp.webp"
+        },
+        {
+            "id": 9,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/TECvps.webp"
+        },
+        {
+            "id": 10,
+            "description": "",
+            "type": "lostfleet",
+            "imagePath": "/img/TECvps.webp"
+        },
+        {
+            "id": 11,
+            "description": "",
+            "type": "lostfleet",
+            "imagePath": "/img/TECvps.webp"
+        },
+        {
+            "id": 12,
+            "description": "",
+            "type": "lostfleet",
+            "imagePath": "/img/TECvps.webp"
+        }
+    ]
+}

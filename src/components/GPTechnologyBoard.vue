@@ -3,7 +3,7 @@
         <v-container>
             <v-row>
                 <v-col class="d-flex align-center terraformTech">
-                    <v-img lazy-src="/public/img/FEDcre.webp" src="/public/img/FEDcre.webp"></v-img>
+                    <v-img :lazy-src=fedTerraform.imagePath :src=fedTerraform.imagePath></v-img>
                 </v-col>
                 <v-col class="terraformTech">
                     <v-img lazy-src="/public/img/ADVlab.webp" src="/public/img/ADVlab.webp" />
@@ -75,6 +75,9 @@ export default {
         BASTech: [],
         FREETech: []
     }),
+    props: [
+        "fedTerraform"
+    ]
 }
 </script>
 

@@ -1,0 +1,41 @@
+{
+    "version": "1.0",
+    "items": [
+        {
+            "id": 1,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/FINbld.webp"
+        },
+        {
+            "id": 2,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/FINgai.webp"
+        },
+        {
+            "id": 3,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/FINsec.webp"
+        },
+        {
+            "id": 4,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/FINfed.webp"
+        },
+        {
+            "id": 5,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/FINsat.webp"
+        },
+        {
+            "id": 6,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/FINtyp.webp"
+        }
+    ]
+}

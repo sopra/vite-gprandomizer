@@ -1,0 +1,59 @@
+{
+    "version": "1.0",
+    "items": [
+        {
+            "id": 1,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDfed.webp"
+        },
+        {
+            "id": 2,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDgai4.webp"
+        },
+        {
+            "id": 3,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDpia.webp"
+        },
+        {
+            "id": 4,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDter.webp"
+        },
+        {
+            "id": 5,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDtrs4.webp"
+        },
+        {
+            "id": 6,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDgai3.webp"
+        },
+        {
+            "id": 7,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDmin.webp"
+        },
+        {
+            "id": 8,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDstp.webp"
+        },
+        {
+            "id": 9,
+            "description": "",
+            "type": "origin",
+            "imagePath": "/img/RNDtrs3.webp"
+        }
+    ]
+}
