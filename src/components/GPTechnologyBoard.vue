@@ -5,62 +5,14 @@
                 <v-col class="d-flex align-center terraformTech">
                     <v-img :lazy-src=fedTerraform.imagePath :src=fedTerraform.imagePath></v-img>
                 </v-col>
-                <v-col class="terraformTech">
-                    <v-img lazy-src="/public/img/ADVlab.webp" src="/public/img/ADVlab.webp" />
-                    <v-img lazy-src="/public/img/TECcre.webp" src="/public/img/TECcre.webp" />
-                </v-col>
-                <v-col class="navigationTech">
-                    <v-img lazy-src="/public/img/ADVstp.webp" src="/public/img/ADVstp.webp" />
-                    <v-img lazy-src="/public/img/TECknw.webp" src="/public/img/TECknw.webp" />
-                </v-col>
-                <v-col class="aiTech">
-                    <p>
-                        <span>AI:ADV</span>
-                    </p>
-                    <p>
-                        <span>AI:BAS</span>
-                    </p>
-                </v-col>
-                <v-col class="gaiaformTech">
-                    <p>
-                        <span>GP:ADV</span>
-                    </p>
-                    <p>
-                        <span>GP:BAS</span>
-                    </p>
-                </v-col>
-                <v-col class="economyTech">
-                    <p>
-                        <span>ECO:ADV</span>
-                    </p>
-                    <p>
-                        <span>ECO:BAS</span>
-                    </p>
-                </v-col>
-                <v-col class="scienceTech">
-                    <p>
-                        <span>SCI:ADV</span>
-                    </p>
-                    <p>
-                        <span>SCI:BAS</span>
-                    </p>
+                <v-col v-for="(atech, index) in aTechs" :key="index" :class="techClassList[index]">
+                    <v-img :lazy-src="atech.imagePath" :src="atech.imagePath" />
+                    <v-img :lazy-src="basTechs[index].imagePath" :src="basTechs[index].imagePath"></v-img>
                 </v-col>
             </v-row>
-            <v-row class="freeTech">
-                <v-col>
-                    <p>
-                        <span>FREE:BAS1</span>
-                    </p>
-                </v-col>
-                <v-col>
-                    <p>
-                        <span>FREE:BAS2</span>
-                    </p>
-                </v-col>
-                <v-col>
-                    <p>
-                        <span>FREE:BAS3</span>
-                    </p>
+            <v-row class="freeTech justify-space-evenly">
+                <v-col cols="2" v-for="(btech, i) in basTechs.slice(-3)" :key="i">
+                    <v-img :lazy-src="btech.imagePath" :src="btech.imagePath" ></v-img>
                 </v-col>
             </v-row>
         </v-container>
@@ -70,14 +22,19 @@
 <script>
 export default {
     data: () => ({
-        FED: "",
-        ADVTech: [],
-        BASTech: [],
-        FREETech: []
+        techClassList: [
+            "terraformTech",
+            "navigationTech",
+            "aiTech",
+            "gaiaformTech",
+            "economyTech",
+            "scienceTech"
+        ]
     }),
     props: [
         "fedTerraform",
-        "basTechs"
+        "basTechs",
+        "aTechs"
     ]
 }
 </script>

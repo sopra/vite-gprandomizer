@@ -20,11 +20,11 @@
             </v-row>
         </v-container>
         <GPTechnologyBoardVue v-if="!!basicTechsForTechBoard.length"
-            :fedTerraform=federationOfTerraformTechnology :basTechs=basicTechsForTechBoard />
+            :fedTerraform=federationOfTerraformTechnology :basTechs=basicTechsForTechBoard :aTechs=advTechTiles />
         <GPRoundBoardVue v-if="!!roundTiles.length"
             :rts="roundTiles" :fsts="finalscoreTiles" :rbts="roundboosterTiles"/>
         <GPLostFleetVue v-if="expansionFlag === 'lostfleet'" />
-        <GPMapVue />
+        <GPMapVue :mapmode="expansionFlag"/>
     </v-main>
 </template>
 
@@ -64,7 +64,9 @@ export default {
         federationOfTerraformTechnology: {},
         basicTechs: BasicTechnologies,
         basicTechsForTechBoard: [],
+        techTiles: [],
         advTechs: AdvancedTechnologies,
+        advTechTiles: [],
         rounds: Rounds,
         roundTiles: [],
         finals: FinalScores,
@@ -75,7 +77,6 @@ export default {
     methods: {
         setupOriginal() {
             const filterType = "origin";
-            this.setup(filterType)
 
             // reset expansionFlag 
             this.expansionFlag = ""
@@ -86,11 +87,7 @@ export default {
 
             // 
             this.basicTechsForTechBoard = this.shuffle(this.basicTechs.items.filter((e) => e.type === filterType))
-            const advtechs = this.shuffle(this.advTechs.items.filter((e) => e.type === filterType)).slice(0, 5)
-
-            advtechs.forEach((e) => {
-                
-            });
+            this.advTechTiles = this.shuffle(this.advTechs.items.filter((e) => e.type === filterType)).slice(0, 6)
 
             // select round tiles.
             this.roundTiles = this.shuffle(
