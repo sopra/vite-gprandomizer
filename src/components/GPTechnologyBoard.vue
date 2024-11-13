@@ -76,7 +76,8 @@ export default {
         FREETech: []
     }),
     props: [
-        "fedTerraform"
+        "fedTerraform",
+        "basTechs"
     ]
 }
 </script>

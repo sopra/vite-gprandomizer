@@ -19,16 +19,11 @@
                 </v-col>
             </v-row>
         </v-container>
-        <GPTechnologyBoardVue :fedTerraform=federationOfTerraformTechnology :basTechs=basicTechsForTechBoard />
-        <GPRoundBoardVue :rts="roundTiles" :fsts="finalscoreTiles" :rbts="roundboosterTiles"/>
-        <GPLostFleetVue />
-        <v-container>
-            <v-row class="justify-center">
-                <v-col xs="12" sm="12" md="6" lg="4">
-                    <v-btn block @click="generateMap">Generate Map</v-btn>
-                </v-col>
-            </v-row>
-        </v-container>
+        <GPTechnologyBoardVue v-if="!!basicTechsForTechBoard.length"
+            :fedTerraform=federationOfTerraformTechnology :basTechs=basicTechsForTechBoard />
+        <GPRoundBoardVue v-if="!!roundTiles.length"
+            :rts="roundTiles" :fsts="finalscoreTiles" :rbts="roundboosterTiles"/>
+        <GPLostFleetVue v-if="expansionFlag === 'lostfleet'" />
         <GPMapVue />
     </v-main>
 </template>
@@ -82,6 +77,9 @@ export default {
             const filterType = "origin";
             this.setup(filterType)
 
+            // reset expansionFlag 
+            this.expansionFlag = ""
+
             // select federation tile for terraform technology
             this.federationOfTerraformTechnology =
                 this.shuffle(this.federations.items.filter((e) => e.type === filterType))[0]
@@ -91,6 +89,7 @@ export default {
             const advtechs = this.shuffle(this.advTechs.items.filter((e) => e.type === filterType)).slice(0, 5)
 
             advtechs.forEach((e) => {
+                
             });
 
             // select round tiles.
@@ -110,6 +109,9 @@ export default {
             ).slice(0, parseInt(this.selectedPlayerNumber, 10) + 3)
         },
         setupLostFleet() {
+            const expansion = "lostfleet"
+            this.expansionFlag = expansion
+            this.setup(expansion)
         },
         generateMap() {
         },
